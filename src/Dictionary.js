@@ -27,11 +27,13 @@ axios.get(apiUrl).then(handleResponse);
     setKeyword(event.target.value);
   }
 
- return <div className="Dictionary">Hello from Dictionary component!
+ return (
+<div className="Dictionary">
    <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} autoFocus={true} placeholder="Type a word..." />
       </form>
       <Results results={results} />
- </div>;
+ </div>
+ );
 }
    
