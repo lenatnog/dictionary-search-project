@@ -10,10 +10,10 @@ export default function App() {
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="welcome" />
       </main>
        <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>Coded by Helena Nogueira</small>
         </footer>
       </div>
     </div>
