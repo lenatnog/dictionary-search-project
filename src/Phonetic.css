@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.Phonetic a {
+.listen-button {
   border: 1px solid #ddd;
   text-decoration: none;
   padding: 8px 15px;
@@ -13,8 +13,8 @@
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
-  background: #9670f4;
+.listen-button:hover {
+  background: #1d8bb0;
   color: white;
 }
 

@@ -1,9 +1,9 @@
 body {
-  background: #f9f8fe;
+  background: #e4f3f7;
 }
 
 a {
-  color: #9670f4;
+  color: #1d8bb0;
 }
 
 .App{
@@ -16,7 +16,7 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 350px;
   display: block;
   margin: 0 auto;
 }
